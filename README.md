@@ -7,6 +7,11 @@ docker volume create m2
 ```
 
 ## Dockerの操作
+demoディレクトリに移動してdocker-composeを操作する
+```Shell
+cd demo
+```
+<br>
 
 Dockerの起動方法：
 ```Shell
