@@ -1,12 +1,12 @@
-package com.example.mils.demo;
+package com.example.mils.demo.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+//import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
     @GetMapping
-    @ResponseBody
+    //@ResponseBody
     public String index() {
-        return "<h1>Hello world</h1>";
+        return "index";
     }
 }
